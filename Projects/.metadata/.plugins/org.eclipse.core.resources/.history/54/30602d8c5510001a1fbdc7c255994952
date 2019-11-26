@@ -1,0 +1,10 @@
+import java.util.Date;
+
+public class Project {
+
+	private Date startDate;
+
+	private Date endDate;
+
+	private User scrumMaster;
+}

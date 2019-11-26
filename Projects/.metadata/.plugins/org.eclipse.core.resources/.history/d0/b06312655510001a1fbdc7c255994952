@@ -1,0 +1,10 @@
+import java.util.Date;
+
+public abstract class User {
+
+	private Date birthDate;
+
+	private String firstName;
+	private String lastName;
+	private String gender;
+}
