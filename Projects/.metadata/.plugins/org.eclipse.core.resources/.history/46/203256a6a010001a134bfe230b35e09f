@@ -1,0 +1,9 @@
+
+public class Sprint {
+
+	private Date releaseDate;
+	
+	private List<Task> listTask;
+	
+	
+}

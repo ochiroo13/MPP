@@ -2,6 +2,8 @@ import java.util.Date;
 
 public abstract class User {
 
+	private int id;
+
 	private Date birthDate;
 
 	private String firstName;
@@ -9,6 +11,16 @@ public abstract class User {
 	private String lastName;
 
 	private String gender;
+
+	private String email;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 
 	public Date getBirthDate() {
 		return birthDate;
@@ -40,6 +52,14 @@ public abstract class User {
 
 	public void setGender(String gender) {
 		this.gender = gender;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 }

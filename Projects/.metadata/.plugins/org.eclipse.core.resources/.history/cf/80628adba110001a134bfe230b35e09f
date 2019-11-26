@@ -1,8 +1,6 @@
 import java.util.Date;
 
-public class Tester extends User {
-
-	private int id;
+public abstract class User {
 
 	private Date birthDate;
 
@@ -12,13 +10,7 @@ public class Tester extends User {
 
 	private String gender;
 
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
+	private String email;
 
 	public Date getBirthDate() {
 		return birthDate;

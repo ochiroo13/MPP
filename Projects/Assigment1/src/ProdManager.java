@@ -2,6 +2,8 @@ import java.util.Date;
 
 public class ProdManager extends User {
 
+	private int id;
+
 	private Date birthDate;
 
 	private String firstName;
@@ -9,6 +11,14 @@ public class ProdManager extends User {
 	private String lastName;
 
 	private String gender;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
 
 	public Date getBirthDate() {
 		return birthDate;
